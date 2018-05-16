@@ -12,11 +12,7 @@ public class Greeter {
 
   }
 
-  /**
-  * A Javadoc comment.
-  *
-  * @return
-  */
+  /** {@inheritDoc} */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
