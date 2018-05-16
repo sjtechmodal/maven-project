@@ -8,8 +8,8 @@ pipeline {
 
             steps {
 
-                //sh 'mvn clean package'
-                echo 'clean and build'
+                sh 'mvn clean package'
+                //echo 'clean and build'
 
             }
 
