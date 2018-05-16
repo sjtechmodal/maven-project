@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                sh '/opt/apache-maven-3.5.3/bin/mvn clean package'
+                sh 'mvn clean package'
                 //echo 'clean and build'
 
             }
